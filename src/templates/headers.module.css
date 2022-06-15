@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Regular.eot);
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Regular.eot?#iefix) format('embedded-opentype'),
+  url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Regular.woff2) format('woff2'),
+  url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Regular.woff) format('woff'),
+  url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Regular.ttf) format('truetype');
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+
+.logo {
+  font-size: 80px;
+  line-height: 90px;
+  font-family: Centaur;
+  text-align: right;
+  padding: 36px 28px 60px 600px;
+}
+
+.menu {
+  background: white;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #878FAB;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  margin: 0 28px 0 120px;
+}
+
+.button {
+  border: none;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  font-family: "Nanum Gothic";
+  color: black;
+  background: white;
+  padding-left: 20px;
+}
+
+.repo {
+  text-align: start;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #878FAB;
+  margin: 0 28px 0 120px;
+}
+
+.text {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+}
