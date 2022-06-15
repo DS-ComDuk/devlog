@@ -1,0 +1,23 @@
+.card {
+  background: linear-gradient(#e1efff, white);
+  border-radius: 10px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  align-items: left;
+  padding: 10px;
+  margin: 10px;
+  height: fit-content;
+}
+
+.card h2 {
+  text-align: left;
+}
+.card p {
+  text-align: left;
+}
+.card div {
+  display: flex;
+}
+.card div p {
+  padding-right: 2em;
+  display: inline;
+}
