@@ -1,16 +1,15 @@
 import "./App.css";
-import UserBar from "./components/UserBar";
-import Card from "./components/Card";
-import {Header} from "./components/Header";
+import {Route, Routes} from "react-router-dom";
+import MyPage from "./pages/MyPage";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
     <div className="App">
-      <div className="page">
-        <Header />
-        <Card />
-      </div>
-      <UserBar />
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+        <Route path='/my' element={<MyPage />} />
+      </Routes>
     </div>
   );
 }

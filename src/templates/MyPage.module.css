@@ -1,0 +1,108 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+  margin: 0 100px 30px;
+  /*max-width: 1800px;*/
+}
+.text {
+  margin: 87px auto;
+  font-family: "Nanum Gothic";
+  font-size: 20px;
+}
+.item {
+  background-color: #FFF7DC;
+  border: 1px solid #F5D114;
+  color: black;
+  text-align: center;
+}
+
+.profileBox {
+  display: flex;
+  margin: 30px 43px;
+}
+
+.imageButton {
+  display: flex;
+  border: none;
+  outline: none;
+  background: none;
+  padding-right:46px;
+}
+
+.photoBox {
+  margin: auto 0;
+  width: 180px;
+}
+.changePhoto {
+  font-size: 20px;
+  margin-bottom: 20px;
+  width: 180px;
+  outline: none;
+  background: white;
+}
+
+.removePhoto {
+  font-size: 20px;
+  margin-bottom: 20px;
+  width: 180px;
+  outline: none;
+  background: white;
+}
+
+.nameBox {
+  margin: 45px 43px;
+}
+
+.nameBox input {
+  display: block;
+  border: 1px solid #cccccc;
+  background: white;
+  border-radius: 4px;
+  outline: none;
+  height: 45px;
+  width: 200px;
+  font-size: 24px;
+  font-family: "Nanum Gothic";
+}
+
+.contentBox {
+  margin: 50px 43px;
+  height: 80px;
+}
+
+.contentBox textarea {
+  height: 100%;
+  width: 100%;
+  border: 1px solid #cccccc;
+  font-size: 24px;
+  outline: none;
+  border-radius: 4px;
+  font-family: "Nanum Gothic";
+}
+
+.techBox {
+  margin: 24px 43px;
+  height: 150px;
+}
+
+.techBox textarea {
+  height: 100%;
+  width: 100%;
+  border: 1px solid #cccccc;
+  font-size: 24px;
+  outline: none;
+  border-radius: 4px;
+  font-family: "Nanum Gothic";
+}
+.submitBox {
+  display: flex;
+  justify-content: right;
+}
+.submit {
+  font-size: 20px;
+  width: 100px;
+  outline: none;
+  background: none;
+  margin-right: 100px;
+  text-align: center;
+}

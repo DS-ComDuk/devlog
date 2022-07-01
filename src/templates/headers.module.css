@@ -24,6 +24,14 @@
   padding: 36px 28px 60px 600px;
 }
 
+.single {
+  font-size: 80px;
+  line-height: 90px;
+  font-family: Centaur;
+  text-align: left;
+  padding: 36px 0 47px 80px;
+}
+
 .menu {
   background: white;
   padding-bottom: 16px;
