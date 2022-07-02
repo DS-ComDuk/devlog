@@ -1,12 +1,17 @@
-import {Header} from "../components/Header";
-import styles from '../templates/MyPage.module.css'
+import { Header } from "../components/Header";
+import styles from "../templates/MyPage.module.css";
 
-const MyPage = ({history}) => {
-  const onChange = () => { }
+const MyPage = ({ history }) => {
+  const main = {
+    type: "none",
+    selected: "none",
+    name: "repository name",
+  };
+  const onChange = () => {};
 
   return (
     <>
-      <Header type={'none'}/>
+      <Header main={main} />
       <section className={styles.wrapper}>
         <div className={styles.item}>
           <div className={styles.text}>프로필</div>
@@ -14,7 +19,10 @@ const MyPage = ({history}) => {
         <div className={styles.item}>
           <div className={styles.profileBox}>
             <button className={styles.imageButton}>
-              <img src={require("../assets/images/profile.png")} width='160px' />
+              <img
+                src={require("../assets/images/profile.png")}
+                width="160px"
+              />
             </button>
             <div className={styles.photoBox}>
               <button className={styles.changePhoto}>사진 변경하기</button>
@@ -23,7 +31,9 @@ const MyPage = ({history}) => {
           </div>
         </div>
         <div className={styles.item}>
-          <div className={styles.text} style={{margin: '60px auto'}}>이름</div>
+          <div className={styles.text} style={{ margin: "60px auto" }}>
+            이름
+          </div>
         </div>
         <div className={styles.item}>
           <div className={styles.nameBox}>
@@ -33,22 +43,38 @@ const MyPage = ({history}) => {
           </div>
         </div>
         <div className={styles.item}>
-          <div className={styles.text} style={{margin: '75px auto'}}>소개글</div>
+          <div className={styles.text} style={{ margin: "75px auto" }}>
+            소개글
+          </div>
         </div>
         <div className={styles.item}>
           <div className={styles.contentBox}>
             <from>
-              <textarea type="text" id="content" name="comment" onChange={onChange} />
+              <textarea
+                type="text"
+                id="content"
+                name="comment"
+                onChange={onChange}
+              />
             </from>
           </div>
         </div>
         <div className={styles.item}>
-          <div className={styles.text} style={{margin: '75px auto'}}>기술<br/>스택</div>
+          <div className={styles.text} style={{ margin: "75px auto" }}>
+            기술
+            <br />
+            스택
+          </div>
         </div>
         <div className={styles.item}>
           <div className={styles.techBox}>
             <from>
-              <textarea type="text" id="content" name="comment" onChange={onChange} />
+              <textarea
+                type="text"
+                id="content"
+                name="comment"
+                onChange={onChange}
+              />
             </from>
           </div>
         </div>
@@ -56,9 +82,8 @@ const MyPage = ({history}) => {
       <div className={styles.submitBox}>
         <button className={styles.submit}>설정</button>
       </div>
-
     </>
-  )
-}
+  );
+};
 
 export default MyPage;
