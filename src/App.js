@@ -3,6 +3,9 @@ import { useState } from "react";
 import UserBar from "./components/UserBar";
 import CardList from "./components/CardList";
 import { Header } from "./components/Header";
+//import {Route, Routes} from "react-router-dom";
+//import MyPage from "./pages/MyPage";
+//import HomePage from "./pages/HomePage";
 
 const DUMMY__data = [
   {
@@ -51,6 +54,11 @@ function App() {
         <CardList datas={datas} main={main} onListChange={listChangeHandler} />
       </div>
       <UserBar />
+
+      <!-- <Routes>
+        <Route path='/' element={<HomePage />} />
+        <Route path='/my' element={<MyPage />} />
+      </Routes> -->
     </div>
   );
 }
